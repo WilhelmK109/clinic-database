@@ -1,12 +1,5 @@
-# curriculum-databases-projects-template
+# Clinic-database
 
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
 
@@ -61,9 +54,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Clinic database] <a name="about-project"></a>
 
-In this milestone of the project, I have created a clinic database based on a schema diagram.
+Given a database diagram, interpret it, and implement the SQL needed to build that database.
 
-**[Clinic database]** is a database that will track and store patients information.
+**[Clinic database]** is a database that will store patients information.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -96,7 +89,7 @@ In this milestone of the project, I have created a clinic database based on a sc
 
 > Describe between 1-3 key features of the application.
 
-- **[Create a database]**
+- **[Create a database based on schema diagram]**
 - **[Create tables]**
 - **[Add indexes]**
 
@@ -122,13 +115,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- PostgreSQL database
 
 ### Setup
 
@@ -142,18 +129,11 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-<!--
-Example command:
+- Select correct PostgreSQL package and install from https://www.postgresql.org/download/
 
-```sh
-  cd my-project
-  gem install
-```
---->
+<!-- ### Usage
 
-### Usage
-
-To run the project, execute the following command:
+To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -163,9 +143,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -175,9 +155,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -192,8 +172,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -218,7 +196,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/WilhelmK109/clinic-database/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
